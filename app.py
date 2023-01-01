@@ -5,7 +5,7 @@ pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tessera
 
 # a = Image.open('영수증.jpg')
 # result = pytesseract.image_to_string(a, lang='kor')
-a = Image.open('술.jpg')
+a = Image.open('카드3.jpg')
 result = pytesseract.image_to_string(a)
 print(result)
 
